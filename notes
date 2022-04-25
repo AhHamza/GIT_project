@@ -1,0 +1,6 @@
+git status -> 
+git commit -m "first commit message"
+git log -> histort of commits
+git branch <new branch name> -> create new branch
+git branch -> list of branches
+git checkout "branch name"
