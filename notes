@@ -1,6 +1,19 @@
-git status -> 
-git commit -m "first commit message"
+
+                    "GIT"
+'git status -> 
+git add "file name" ->adds file to "staging area", must be done before any commit
+git add . -> adds everything in branch into "staging area"
+git commit -m "first commit message" ->commits
 git log -> histort of commits
-git branch <new branch name> -> create new branch
-git branch -> list of branches
-git checkout "branch name"
+git branch <new branch name> -> create new branch that is a copy of the "master"
+git branch -> lists the branches
+git checkout "branch name" ->checks out branch
+git checkout "commit hash" ->checks out commits of a branch
+git merge "branch name" -> merges the branch with the "master branch"
+
+
+                    "GITHUB"
+
+git remote add "name of remote" "remote link"
+git remote -v -> connected remote
+git push -u "name of remote" "name of branch"
